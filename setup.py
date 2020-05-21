@@ -4,7 +4,7 @@ import cryptory
 
 
 setup(name='cryptory',
-      version=cryptory.__version__,
+      version=0.1.1,
       url='https://github.com/dashee87/cryptory',
       author='David Sheehan',
       author_email='davidfsheehan87@gmail.com',
