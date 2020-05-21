@@ -126,7 +126,7 @@ class Cryptory():
         """
         try:
             output = pd.read_html("https://coinmarketcap.com/currencies/{}/historical-data/?start={}&end={}".format(
-                coin, self.from_date.replace("-", ""), self.to_date.replace("-", "")))[0]
+                coin, self.from_date.replace("-", ""), self.to_date.replace("-", "")))[2]
         except:
             # future versions may split out the different exceptions (e.g. timeout)
             raise
